@@ -21,13 +21,3 @@
    npm install better-sqlite3 hono @hono/node-server @hono/zod-validator zod tsx
    npm install -D @types/better-sqlite3 @types/node
 
-##LibraryBook_Mid/
-├── src/
-│   ├── products/
-│   │   ├── index.ts        <-- (Controller: รับค่า/เช็ค Zod)
-│   │   ├── repository.ts   <-- (Repository: คุยกับ DB)
-│   │   └── service.ts      <-- (Service: เช็คกฎเหล็ก)
-│   ├── db.ts               <-- (สร้างตาราง LibraryBook)
-│   └── index.ts            <-- (ไฟล์หลัก: สั่ง serve รัน Port 3000)
-├── package.json
-└── package-lock.json
